@@ -4,7 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 import fs from 'node:fs'
 import path from 'node:path'
 
-import siteConfiguration from './.figma/make/site.json'
+const siteConfigurationPath = path.resolve(__dirname, '.figma/make/site.json')
+const siteConfiguration: FigmaSiteConfiguration = fs.existsSync(siteConfigurationPath)
+  ? JSON.parse(fs.readFileSync(siteConfigurationPath, 'utf8'))
+  : { title: 'Wyrm Codex' }
 
 
 // Vite config — https://vitejs.dev/config/

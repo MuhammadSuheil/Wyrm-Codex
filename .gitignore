@@ -13,6 +13,11 @@ logs/
 .tmp-*
 /.figma/design-context/
 
+# Local tooling and generated knowledge graphs
+/.codex/
+/.figma/
+/graphify-out/
+
 AGENTS.md
 CLAUDE.md
 # Platform-managed agentplat state, not project source. In the
