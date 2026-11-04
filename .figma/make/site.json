@@ -1,0 +1,10 @@
+{
+  "description": "Practice Spanish with audio lessons and pronunciation scoring to build speaking confidence and improve language skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

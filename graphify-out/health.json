@@ -1,0 +1,144 @@
+{
+  "node_count": 377,
+  "unverified_node_count": 0,
+  "raw_edge_count": 1000,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 2,
+  "external_reference_edges": 2,
+  "self_loop_edges": 2,
+  "valid_candidate_edges": 996,
+  "exact_duplicate_edges": 0,
+  "directed_unique_endpoint_pairs": 994,
+  "directed_same_endpoint_collapsed_edges": 2,
+  "undirected_unique_endpoint_pairs": 994,
+  "undirected_same_endpoint_collapsed_edges": 2,
+  "same_endpoint_group_count": 2,
+  "relation_variant_groups": 1,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 1,
+  "context_variant_groups": 0,
+  "post_build_graph_type": "Graph",
+  "post_build_node_count": 381,
+  "post_build_edge_count": 998,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "C:\\Users\\sumhel\\AppData\\Roaming\\Python\\Python314\\site-packages\\graphify\\extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1857,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2532,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2534,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 3201,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 3348,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 4489,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 4675,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 8495,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8603,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8682,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 9207,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 9208,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "src_lair",
+      "target": "ref_react",
+      "edge_count": 2,
+      "relations": [
+        "imports_from"
+      ],
+      "source_files": [
+        "src/Lair.tsx"
+      ],
+      "source_locations": [
+        "L1",
+        "L2"
+      ],
+      "contexts": [
+        "import"
+      ]
+    },
+    {
+      "source": "vite_config_figmasiteconfiguration_9d918f033404",
+      "target": "vite_config_figmasiteconfiguration_9d918f033404_sanitizehtmlvalue",
+      "edge_count": 2,
+      "relations": [
+        "calls",
+        "contains"
+      ],
+      "source_files": [
+        "vite.config.ts"
+      ],
+      "source_locations": [
+        "L81",
+        "L96"
+      ],
+      "contexts": [
+        "",
+        "call"
+      ]
+    }
+  ]
+}
